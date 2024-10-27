@@ -1,0 +1,39 @@
+.card {
+    display: flex!important;
+    flex-direction: column!important;
+    text-align: start;
+    border: 1px solid #d0cece;
+    margin: 0 20px;
+    max-width: 300px;
+
+    img {
+        max-width: 250px;
+    }
+}
+
+.list {
+    text-align: center;
+    margin-top: 90PX;
+
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.price-old {
+    text-decoration: line-through;
+    padding: 0 40px 0px 40px;
+}
+
+.name {
+    padding: 0 40px 0px 40px;
+    min-height: 49px;
+}
+
+.price-promotion{
+    color: #00adeb;
+    font-size: 31px;
+    line-height: 31px;
+    font-weight: bold;
+    padding: 0 40px 40px 40px;
+}
