@@ -1,7 +1,7 @@
 .logo {
     width: 300px;
     padding: 40px 0;
-    position: absolute;
+
 }
 
 .header {
@@ -10,6 +10,10 @@
     justify-content: center;
     border-bottom: 1px solid #d0cece;
     height: 160px;
+
+    a {
+      position: absolute;
+    }
 }
 
 .menu {

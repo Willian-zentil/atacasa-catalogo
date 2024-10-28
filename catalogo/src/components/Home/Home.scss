@@ -4,30 +4,58 @@
     text-align: start;
     border: 1px solid #d0cece;
     margin: 0 20px;
-    max-width: 300px;
+    max-width: 250px;
 
     img {
         max-width: 250px;
+        width: 250px;
+        height: 250px
+    }
+
+    a {
+        background-color: #00bf63;
+        color: #fff;
+        font-weight: bold;
+        font-size: 26px;
+        margin: 15px;
+        border: none;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
     }
 }
 
 .list {
     text-align: center;
     margin-top: 90PX;
-
-    h2 {
-        margin-bottom: 0;
-    }
 }
 
 .price-old {
     text-decoration: line-through;
-    padding: 0 40px 0px 40px;
+}
+
+.space-price-old {
+    min-height: 55px;
+}
+
+.container-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-see-more {
+    background-color: #00AEF0;
+    height: 60px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    margin: 40px auto;
 }
 
 .name {
     padding: 0 40px 0px 40px;
-    min-height: 49px;
+    min-height: 74px;
 }
 
 .price-promotion{
@@ -35,5 +63,10 @@
     font-size: 31px;
     line-height: 31px;
     font-weight: bold;
-    padding: 0 40px 40px 40px;
+}
+
+.price-container {
+    padding: 0 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
 }
